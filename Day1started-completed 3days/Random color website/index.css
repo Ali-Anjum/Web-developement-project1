@@ -1,0 +1,74 @@
+body{
+    background-color: #ddecfc
+    ;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+list-style: none;
+}
+.wdiv{
+    background-color: #DFEEFC;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: 3%;
+
+    min-width: 50vh;
+    height: auto;
+
+    align-items: center;
+    border-radius: 5vh;
+     cursor: pointer;
+    border-style: solid;
+    padding: 0;
+    transition: 0.6 ease-in;
+
+    
+    border-color: #fff rgba(255,255,255,255) ;
+    background-color: #fff rgba(255,255,255,255) ;;
+    text-align: center;
+}
+.wdiv .div1{
+    background-color: rgba(255, 0, 0, 0.508);
+
+
+     padding-left: 35vh;
+     margin-left: 0vh;
+
+
+    padding-right: 0vh;
+    padding-bottom: 30vh;
+    border-radius: 5vh;
+    border-style:hidden ;
+    
+    border-color:  rgba(255,255,255,255) ;
+    
+
+}
+.wdiv .text{
+    background-color:  rgba(255,255,255,255);
+    color: rgba(68,68,68,255);
+    text-align: center;
+
+    
+}
+.wdiv:hover
+
+{
+    background-color:   rgba(255,255,255,1);
+    box-shadow: #480000;
+    filter: brightness(109%);
+    
+}
+.refresh-btn{
+    padding: 2% 2% 2% 2%;
+    opacity: 0.6;
+    color: aqua;
+    position:static ;
+    margin-left: 30%;
+
+
+    cursor: pointer;
+}
+

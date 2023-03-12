@@ -1,74 +1,45 @@
-body{
-    background-color: #ddecfc
-    ;
-}
-.section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-list-style: none;
-}
-.wdiv{
-    background-color: #DFEEFC;
-    margin-left: 5%;
-    margin-right: 75%;
-    margin-top: 3%;
-
-    min-width: 50vh;
-    height: auto;
-
-    align-items: center;
-    border-radius: 5vh;
-     cursor: pointer;
-    border-style: solid;
-    padding: 0;
-    transition: 0.6 ease-in;
-
+#ws{
     
-    border-color: #fff rgba(255,255,255,255) ;
-    background-color: #fff rgba(255,255,255,255) ;;
-    text-align: center;
-}
-.wdiv .div1{
-    background-color: rgba(255, 0, 0, 0.508);
-
-
-     padding-left: 35vh;
-     margin-left: 0vh;
-
-
-    padding-right: 0vh;
-    padding-bottom: 30vh;
-    border-radius: 5vh;
-    border-style:hidden ;
+    min-height: 100%;
+    min-width: 100%;
     
-    border-color:  rgba(255,255,255,255) ;
-    
-
 }
-.wdiv .text{
+.text{
     background-color:  rgba(255,255,255,255);
     color: rgba(68,68,68,255);
     text-align: center;
-
-    
+    margin-top:30%;
+    border-radius: 30px;
+    margin-left: 1px;
+    margin-right: 10px;
+    border-style: solid;
+    font-size: 20px;
 }
-.wdiv:hover
 
-{
-    background-color:   rgba(255,255,255,1);
-    box-shadow: #480000;
-    filter: brightness(109%);
-    
-}
 .refresh-btn{
-    padding: 2% 2% 2% 2%;
-    opacity: 0.6;
+    position: absolute;
+    top:25%;
+    margin-left: 45%;
+    font-size: 30px;
     color: aqua;
-    position:static ;
-    margin-left: 30%;
-
-
-    cursor: pointer;
+    background-color: black;
+    align-items: center;
+    border-radius: 5px;
+    text-shadow: 2px 2px red;
+}  
+.refresh-btn:hover{
+    background-color: #ddecfc;
+    color: black;
+    
 }
+.text:hover{
+    text-shadow: 1px 1px rgb(5, 5, 5);
+    
+    
+}
+
+
+
+
+
 
